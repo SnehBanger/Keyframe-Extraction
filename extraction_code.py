@@ -184,5 +184,5 @@ for c in new1:
     frame_rgb1 = cv2.cvtColor(D[c], cv2.COLOR_RGB2BGR) #since cv consider image in BGR order
     frame_num_chr = str(c)
     file_name = 'frame'+ frame_num_chr +'.png'
-    cv2.imwrite((os.path.join(path, file_name)), frame_rgb1)
+    cv2.imwrite((os.path.join(path, file__name)), frame_rgb1)
 
